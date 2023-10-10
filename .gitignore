@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignorar directorios generados por pnpm
+/node_modules
+/.pnpm-store
+/.pnpm-workspace.yaml
+
+# Ignorar archivos generados por pnpm
+/pnpm-debug.log
+/pnpmfile.js
+/pnpmfile.cjs
+/.pnpmfile.cjs
+/.pnpmfile.js
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales
+*.swp
+*~
+
+# Ignorar archivos de dependencias locales generados por pnpm
+/.pkg
+
+# Ignorar el directorio de compilación (si corresponde)
+/dist
+
+# Ignorar el directorio de pruebas (si corresponde)
+/tests
